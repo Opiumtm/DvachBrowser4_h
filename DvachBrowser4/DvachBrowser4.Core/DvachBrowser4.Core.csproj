@@ -107,6 +107,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Links\IBoardLinkBase.cs" />
+    <Compile Include="Models\Links\IBoardLinkResolver.cs" />
+    <Compile Include="Models\Links\IBoardLinkResolverServiceArg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\DvachBrowser4.Core.rd.xml" />
   </ItemGroup>
