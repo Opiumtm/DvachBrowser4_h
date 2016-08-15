@@ -5,16 +5,23 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvachBrowser4", "DvachBrowser4\DvachBrowser4.csproj", "{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ABE63B68-2279-4640-BCC4-1AE6099DAD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvachBrowser4.Core", "DvachBrowser4.Core\DvachBrowser4.Core.csproj", "{76682CE7-A5DA-4C38-904F-B18FC85EFE00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|ARM.ActiveCfg = Debug|ARM
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|ARM.Build.0 = Debug|ARM
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -24,6 +31,7 @@ Global
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|x86.ActiveCfg = Debug|x86
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|x86.Build.0 = Debug|x86
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Debug|x86.Deploy.0 = Debug|x86
+		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|Any CPU.ActiveCfg = Release|x86
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|ARM.ActiveCfg = Release|ARM
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|ARM.Build.0 = Release|ARM
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|ARM.Deploy.0 = Release|ARM
@@ -33,8 +41,27 @@ Global
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|x86.ActiveCfg = Release|x86
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|x86.Build.0 = Release|x86
 		{FB2EC4B4-C5F0-48AD-B93E-B188BE037158}.Release|x86.Deploy.0 = Release|x86
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|ARM.ActiveCfg = Debug|ARM
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|ARM.Build.0 = Debug|ARM
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|x64.ActiveCfg = Debug|x64
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|x64.Build.0 = Debug|x64
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|x86.ActiveCfg = Debug|x86
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Debug|x86.Build.0 = Debug|x86
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|ARM.ActiveCfg = Release|ARM
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|ARM.Build.0 = Release|ARM
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|x64.ActiveCfg = Release|x64
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|x64.Build.0 = Release|x64
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|x86.ActiveCfg = Release|x86
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76682CE7-A5DA-4C38-904F-B18FC85EFE00} = {ABE63B68-2279-4640-BCC4-1AE6099DAD1F}
 	EndGlobalSection
 EndGlobal
