@@ -1,17 +1,17 @@
 ﻿namespace DvachBrowser4.Models.Links
 {
     /// <summary>
-    /// Imageboard link base.
+    /// Базовый интерфейс ссылки.
     /// </summary>
     public interface IBoardLinkBase
     {
         /// <summary>
-        /// Link type id.
+        /// Тип ссылки.
         /// </summary>
         string TypeId { get; }
 
         /// <summary>
-        /// Link as string.
+        /// Ссылка в форме строки.
         /// </summary>
         string AsString { get; }
     }

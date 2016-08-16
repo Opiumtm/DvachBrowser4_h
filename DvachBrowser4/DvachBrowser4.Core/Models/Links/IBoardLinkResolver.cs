@@ -1,16 +1,16 @@
 ﻿namespace DvachBrowser4.Models.Links
 {
     /// <summary>
-    /// Imageboard link resolver.
+    /// Средство определения ссылок.
     /// </summary>
     public interface IBoardLinkResolver
     {
         /// <summary>
-        /// Resolve link.
+        /// Определить ссылку.
         /// </summary>
-        /// <param name="typeId">Link type id.</param>
-        /// <param name="value">String representation.</param>
-        /// <returns>Imageboard link.</returns>
+        /// <param name="typeId">Тип ссылки.</param>
+        /// <param name="value">Строковое представление ссылки.</param>
+        /// <returns>Ссылка.</returns>
         IBoardLinkBase Resolve(string typeId, string value);
     }
 }

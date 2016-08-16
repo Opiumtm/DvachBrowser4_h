@@ -3,12 +3,12 @@
 namespace DvachBrowser4.Models.Links
 {
     /// <summary>
-    /// Imageboard link resolver service discovery argument.
+    /// Аргумент для получения сервиса определения ссылок.
     /// </summary>
     public interface IBoardLinkResolverServiceArg : IResolveServiceParam<IBoardLinkResolver>
     {
         /// <summary>
-        /// Link type ID.
+        /// Тип ссылки.
         /// </summary>
         string LinkTypeId { get; }
     }
